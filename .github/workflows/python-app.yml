@@ -33,7 +33,7 @@ jobs:
       run: |
         export PYTHONPATH=src/main/python
         pytest
-
+        coveralls < coverage/lcov.info
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
