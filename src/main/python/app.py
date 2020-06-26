@@ -3,6 +3,9 @@ from PyQt5.QtWidgets import QMainWindow
 
 import sys
 
+def index():
+    return "Hello World!"
+
 if __name__ == '__main__':
     appctxt = ApplicationContext()       # 1. Instantiate ApplicationContext
     window = QMainWindow()
