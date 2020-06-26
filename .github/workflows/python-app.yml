@@ -33,7 +33,7 @@ jobs:
       run: |
         export PYTHONPATH=src/main/python
         pytest
-        coveralls
+        
     - name: npm install, make test-coverage
       run: |
         npm install
